@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Pricing model</title>
+
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="pricing.js"></script>
+
+  </head>
+
+
+
+  <div class="flex justify-center">
+    <div class="max-w-4xl">
+        <div class="p-20 text-xl text-center">
+            <p class="text-indigo-500"><strong>Our Pricing</strong></p>
+        </div>
+
+        <div class="justify-center flex mb-10">
+            <button class="inline-flex">Annually</button>
+            <label class="inline-flex items-center cursor-pointer ml-4">
+                <input type="checkbox" value="" class="sr-only peer">
+                <div class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+            </label>
+            <button class="inline-flex ml-4">Monthly</button>
+        </div>
+    </div>
+</div>
+
+<div class="flex justify-center gap-8">
+    <div class="p-8 text-xl bg-white rounded-lg w-80">
+        <div class="p-2">
+            <p class="text-center">Basic</p>
+        </div>
+        <p class="p-4 text-4xl text-center border-b-4 border-slate-500 rounded-lg"><strong>$19.99</strong></p>
+        <p class="p-4 text-center border-b-4 border-slate-500 rounded-lg">500 GB Storage</p>
+        <p class="p-4 text-center border-b-4 border-slate-500 rounded-lg">2 Users Allowed</p>
+        <p class="p-4 text-center rounded-lg">Send up to 3 GB</p>
+        <div class="p-6">
+            <button class="p-3 text-white bg-gradient-to-r from-indigo-300 via-indigo-400 to-indigo-500 rounded-lg hover:bg-blue-300">Learn More</button>
+        </div>
+    </div>
+    <div class="p-8 text-xl bg-gradient-to-r from-indigo-300 via-indigo-400 to-indigo-500 rounded-lg w-80">
+        <div class="p-2">
+            <p class="text-center">Master</p>
+        </div>
+        <p class="p-4 text-4xl text-center border-b-4 border-slate-500 rounded-lg text-white"><strong>$24.99</strong></p>
+        <p class="p-4 text-center border-b-4 border-slate-500 rounded-lg">1 TB Storage</p>
+        <p class="p-4 text-center border-b-4 border-slate-500 rounded-lg">5 Users Allowed</p>
+        <p class="p-4 text-center rounded-lg">Send up to 10 GB</p>
+        <div class="p-6">
+            <button class="hello p-3 bg-white rounded-lg hover:bg-blue-300">Learn More</button>
+        </div>
+    </div>
+    <div class="p-8 text-xl bg-white rounded-lg w-80">
+        <div class="p-2">
+            <p class="text-center">Professional</p>
+        </div>
+        <p class="p-4 text-4xl text-center border-b-4 border-slate-500 rounded-lg"><strong>$19.99</strong></p>
+        <p class="p-4 text-center border-b-4 border-slate-500 rounded-lg">2 TB Storage</p>
+        <p class="p-4 text-center border-b-4 border-slate-500 rounded-lg">10 Users Allowed</p>
+        <p class="p-4 text-center rounded-lg">Send up to 20 GB</p>
+        <div class="p-6">
+            <button class="p-3 text-white bg-gradient-to-r from-indigo-300 via-indigo-400 to-indigo-500 rounded-lg hover:bg-blue-300">Learn More</button>
+        </div>
+    </div>
+</div>
+
+</html>
